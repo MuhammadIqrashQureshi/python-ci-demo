@@ -1,20 +1,20 @@
-myInfo = {
-"name": "Iqrash",
-"age": 20,
-"subjects": ["oop", "dsa", "pf", "os", "automata", "compiler", "web"]
+my_info = {
+    "name": "Iqrash",
+    "age": 20,
+    "subjects": ["oop", "dsa", "pf", "os", "automata", "compiler", "web"]
 }
 
-friendInfo = {
-"name": "Zain",
-"age": 22,
-"subjects": ["oop", "dsa", "compiler", "web"]
+friend_info = {
+    "name": "Zain",
+    "age": 22,
+    "subjects": ["oop", "dsa", "compiler", "web"]
 }
 
-ageDifference=myInfo["age"]-friendInfo["age"]
-if (ageDifference>0):
-    print(myInfo["name"]," is older")
+age_difference = my_info["age"] - friend_info["age"]
+if age_difference > 0:
+    print(my_info["name"], "is older")
 else:
-    print(friendInfo["name"]," is older")
+    print(friend_info["name"], "is older")
 
-coursesDifference=set(myInfo["subjects"])-set(friendInfo["subjects"])
-print("Courses: ",coursesDifference)
+courses_difference = set(my_info["subjects"]) - set(friend_info["subjects"])
+print("Courses: ", courses_difference)
